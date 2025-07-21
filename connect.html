@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect | Samartha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { background: #181c24; color: #e0e6ed; }
+    .connect-container {
+      max-width: 420px;
+      margin: 4rem auto 0 auto;
+      background: rgba(30, 34, 44, 0.7);
+      border-radius: 18px;
+      box-shadow: 0 4px 32px 0 rgba(0,0,0,0.25);
+      padding: 2.5rem 2rem 2rem 2rem;
+      border: 2px solid #7afcff88;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .connect-container h2 {
+      color: #7afcff;
+      font-family: 'Poppins', 'Inter', Arial, sans-serif;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-shadow: 0 0 12px #7afcff33;
+    }
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      width: 100%;
+      margin-top: 1.5rem;
+    }
+    .social-link {
+      display: flex;
+      align-items: center;
+      gap: 1.1rem;
+      background: rgba(24, 28, 36, 0.85);
+      border-radius: 12px;
+      border: 1.5px solid #7afcff44;
+      box-shadow: 0 2px 8px #7afcff11;
+      padding: 0.8rem 1.2rem;
+      transition: box-shadow 0.22s, border 0.22s, transform 0.22s;
+      text-decoration: none;
+    }
+    .social-link:hover, .social-link:focus {
+      box-shadow: 0 0 16px 2px #7afcff99, 0 4px 16px 0 rgba(0,0,0,0.18);
+      border: 1.5px solid #7afcff;
+      transform: translateY(-4px) scale(1.03);
+    }
+    .social-icon {
+      width: 38px;
+      height: 38px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: #23272f;
+      padding: 4px;
+      box-shadow: 0 2px 8px #7afcff22;
+      display: block;
+    }
+    .social-label {
+      color: #e0e6ed;
+      font-size: 1.13rem;
+      font-family: 'Inter', 'Poppins', Arial, sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 2.2rem;
+      color: #7afcff;
+      text-decoration: none;
+      font-size: 1.08rem;
+      font-family: 'Poppins', 'Inter', Arial, sans-serif;
+      transition: color 0.2s;
+    }
+    .back-link:hover, .back-link:focus {
+      color: #00ffd0;
+      text-shadow: 0 0 8px #7afcff88;
+    }
+    @media (max-width: 600px) {
+      .connect-container { padding: 1.2rem 0.5rem; }
+      .connect-container h2 { font-size: 1.3rem; }
+      .social-label { font-size: 0.98rem; }
+      .social-icon { width: 30px; height: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="connect-container">
+    <h2>Connect with Samartha</h2>
+    <div class="social-links">
+      <a class="social-link" href="mailto:samarthbillava17@gmail.com">
+        <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+        <span class="social-label">samarthbillava17@gmail.com</span>
+      </a>
+      <a class="social-link" href="https://www.linkedin.com/in/samartha-75924b2a6/" target="_blank">
+        <img class="social-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+        <span class="social-label">linkedin.com/Samartha</span>
+      </a>
+      <a class="social-link" href="https://github.com/Samarth-billava" target="_blank">
+        <img class="social-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        <span class="social-label">github.com/Samarth-billava</span>
+      </a>
+      <a class="social-link" href="https://www.instagram.com/samarthbillava17" target="_blank">
+        <img class="social-icon" src="./insta icon.webp" alt="Instagram" />
+        <span class="social-label">@samarthbillava17</span>
+      </a>
+    </div>
+    <a href="index.html" class="back-link">&larr; Back to Portfolio</a>
+  </div>
+</body>
+</html> 
